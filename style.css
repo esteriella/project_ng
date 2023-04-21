@@ -786,6 +786,10 @@ ul :hover ul{
     font-size: 12px;
 }
 
+.actives {
+    color: rgb(45, 45, 124); 
+}
+
 .homepage-v6 {
     background-color: #fff;
     margin-top: 20px;
@@ -1020,11 +1024,15 @@ h4 .lagos-h{
 }
 
 .listing-hotels {
-    border: 1px solid rgb(0, 174, 255);
+    border: 1px solid rgb(61, 59, 59);
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 0.75fr 1fr 0.5fr;
     width: 95%;
+}
+
+.listing-hotels:hover {
+    border: 1px solid rgb(0, 174, 255);
 }
 
 .listing-hotels img{
