@@ -4,14 +4,15 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.header-bar img{
+.header-bar img {
     margin-left: 40px;
     border-left: none;
 }
+
 body {
     max-width: 100%;
     overflow-x: hidden;
-    
+
 }
 
 a {
@@ -88,7 +89,6 @@ font-size: 10px;
     
 }
 
-
 .navbar {
     background-color: rgb(25, 190, 255);
     list-style: none;
@@ -103,7 +103,6 @@ font-size: 10px;
     z-index: 2rem;
     
 }
-
 
 ul :hover ul{
     visibility:visible;
@@ -148,6 +147,7 @@ ul :hover ul{
     color: white;
     margin-top: 10px;
 }
+
 .navbar-header {
     display: table-cell;
     text-align:left;
@@ -364,13 +364,18 @@ ul :hover ul{
 .headings:hover {
     color: #fff;
 }
+
 .headings-sub {
     color: rgb(61, 59, 59);
 }
+
 .headings-sub:hover{
     color: #fff;
 }
 
+.headings-place {
+    color: rgb(0, 174, 255);
+}
 .head-sub {
     color: rgb(61, 59, 59);
     text-decoration: none;
@@ -384,7 +389,6 @@ ul :hover ul{
     text-align: center;
     margin-top: 50px;
 }
-
 
 .states-grid {
     display: grid;  
@@ -637,9 +641,51 @@ ul :hover ul{
 }
 
 @media(max-width: 700px) {
+    .navbar {
+        width: 990px;
+        display: table;
+    }
+
+    .header-bar img {
+        margin-left: 30px;
+        
+    }
     
+    .whatsapp {
+        margin-left: 230px;
+        
+    }
+
+    .main {
+        background-image: url(img/v7-homepage1.jpg);
+        width: 990px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .homepage-v7 {
+        width: 800px;
+    }
+
+    .destination-grid {
+        display: grid;  
+        grid-template-columns: repeat(3, 3fr );
+        margin-left: 200px;
+        gap: 100px;
 }
 
+.top-deals-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, auto));
+    width: 500px;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 320px;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+}
 /*       styling for Lagos.html      */
 
 .middle-section {

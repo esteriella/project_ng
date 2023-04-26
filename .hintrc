@@ -28,6 +28,7 @@
       {
         "select-name": "off"
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off"
   }
 }
