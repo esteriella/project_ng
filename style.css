@@ -214,9 +214,11 @@ ul :hover ul{
 .header {
     color: rgb(94, 91, 91);
 }
+
 .text-center-popular-cities-sub-text {
     color: rgb(94, 91, 91);
 }
+
 .destination {
     text-align: center;
 }
@@ -275,6 +277,7 @@ ul :hover ul{
     text-align: center;
     margin-top: 50px;
 }
+
 .featured-cities-grid {
     display: grid;  
     justify-content: space-evenly;
@@ -525,7 +528,6 @@ ul :hover ul{
   }
   
   .input-placeholder {
-    /* width: 100%; */
     border: 1px solid gray;
     padding: 10px;
     background-color: #fff;
@@ -639,7 +641,7 @@ ul :hover ul{
     margin-bottom: 10px;
 }
 
-@media(max-width: 700px) {
+/*@media(max-width: 700px) {
     .navbar {
         width: 990px;
         display: table;
@@ -671,20 +673,21 @@ ul :hover ul{
         grid-template-columns: repeat(3, 3fr );
         margin-left: 200px;
         gap: 100px;
-}
+    }
+    
+    .top-deals-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(50%, auto));
+        width: 500px;
+        max-width: 100%;
+        margin-right: 10px;
+        margin-left: 320px;
+        margin-top: 50px;
+        gap: 200px;
+    }
 
-.top-deals-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(50%, auto));
-    width: 500px;
-    max-width: 100%;
-    margin-right: 10px;
-    margin-left: 320px;
-    margin-top: 50px;
-    gap: 200px;
-}
+}*/
 
-}
 /*       styling for Lagos.html      */
 
 .middle-section {
@@ -1167,7 +1170,6 @@ h4 .lagos-h{
     width: 65px;
     height: 35px;
     padding-top: 15px;
-   
 }
 
 .pagination a {
@@ -1278,13 +1280,6 @@ h4 .lagos-h{
 .form-control-lg {
     border: none;
 }
-
-/*.new-search2 {
-    width: 100%;
-    border: 2px solid rgb(121, 118, 118);
-    margin-top: 30px;
-    border-radius: 5px;
-}*/
 
 .form-control {
     border: none;
